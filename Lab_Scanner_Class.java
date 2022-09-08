@@ -1,24 +1,21 @@
-//  Name Surya
-// Batch 2576
-import java.util.Scanner; // import the Scanner class 
-class Student {
+class Main {
   public static void main(String[] args) {
-    Scanner obj = new Scanner(System.in);
-    String stdId,s_name,attendance;
+    
+    int a = 12, b = 5;
+s
+    // addition operator
+    System.out.println("a + b = " + (a + b));
 
-    System.out.println("Enter User Id"); 
-    stdId = obj.nextLine();
-    
-    System.out.println("Enter Student Name"); 
-    s_name = obj.nextLine();   
-    
-    System.out.println("Enter Attendance"); 
-    attendance = obj.nextLine();   
-       
-    System.out.println("User Id is: " + stdId);   
-    System.out.println("Student Name is: " + s_name);   
-    System.out.println("Attendance is: " + attendance);    
+    // subtraction operator
+    System.out.println("a - b = " + (a - b));
+
+    // multiplication operator
+    System.out.println("a * b = " + (a * b));
+
+    // division operator
+    System.out.println("a / b = " + (a / b));
+
+    // modulo operator
+    System.out.println("a % b = " + (a % b));
   }
 }
-
-    
