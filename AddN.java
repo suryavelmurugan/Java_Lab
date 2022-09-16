@@ -9,7 +9,8 @@ public class AddN {
         // performing for loop for until count
         for (int i=1;i<=count;i++) 
         { 
-            // printing value n with space using \t 
+            
+            printing value n with space using \t 
 
             System.out.print(n+"\t") ;
             n=n+n;
