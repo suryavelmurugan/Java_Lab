@@ -1,5 +1,3 @@
-
-
 //Constructor overloading
 //bank customer details
 class BankCustomer
