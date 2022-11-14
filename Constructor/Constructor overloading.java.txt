@@ -1,0 +1,35 @@
+
+
+//Constructor overloading
+//bank customer details
+class BankCustomer
+{
+	int Account_number;
+	String Account_type;
+	double amount;
+	BankCustomer()//no param constructor
+	{
+		Account_number=9876543;
+		Account_type="Savings";
+		amount=150828;
+	}
+    BankCustomer(int x,String y,double z)//param constructor
+	{
+        Account_number=x;
+        Account_type=y;
+       amount=z;
+	}
+    void show()//print the details
+	{
+         System.out.println(Account_number+"   "+Account_type+"    "+amount);
+    }
+public static void main(String[] args)
+{
+    BankCustomer s=new BankCustomer();//no param object
+    BankCustomer s1=new BankCustomer(7894561,"checkbalance",40000);//param object
+   BankCustomer s2=new BankCustomer(321456789,"Withdraw",10000);//param object
+   s.show();
+   s1.show();
+   s2.show();
+}
+}
